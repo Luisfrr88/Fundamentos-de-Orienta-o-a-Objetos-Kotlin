@@ -6,8 +6,6 @@ class Pessoa {
     var cpf: String = "000.000.001.02"
     private set
 
-    constructor()
-
     fun pessoaInfo() = "$nome e $cpf"
 }
 
