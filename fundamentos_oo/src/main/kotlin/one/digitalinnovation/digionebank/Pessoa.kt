@@ -5,3 +5,4 @@ abstract class Pessoa(
     val cpf: String
 )
 
+
