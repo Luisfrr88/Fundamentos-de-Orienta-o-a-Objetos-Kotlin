@@ -1,17 +1,10 @@
 package bankdio
 
-class Pessoa {
-    var nome: String = "Luis"
+import java.math.BigDecimal
 
-    var cpf: String = "000.000.001.02"
-    private set
+abstract class Pessoa(
+ open val nome: String,
+ open val cpf: String
 
-    fun pessoaInfo() = "$nome e $cpf"
-}
+)
 
-fun main() {
-    val luis = Pessoa()
-
- println(luis.pessoaInfo())
-
-}
